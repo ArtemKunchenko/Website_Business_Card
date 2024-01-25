@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: linear-gradient(to bottom,
+            rgba(0, 8, 255, 0.5),
+            rgba(208, 255, 0, 0.5)),
+        url(./img/20230807130920-9199.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+
+}
+
+#MainTitle {
+    font-family: fantasy;
+
+    font-size: 400%;
+    text-transform: uppercase;
+    background: #5011bc3c;
+    display: table;
+    margin-left: 65%;
+
+    color: white;
+    border-radius: 40px;
+    mix-blend-mode: multiply;
+    padding: 10px 10px;
+}
+
+#Quote {
+    font-family: cursive;
+    font-size: 200%;
+    font-style: oblique;
+    margin-left: 1%;
+    margin-top: 175px;
+    font-weight: 800;
+    color: rgba(240, 236, 16, 0.582);
+}
+
+.NavigationBorder {
+    background: linear-gradient(0.25turn, #3f87a600, #424454a5, #323d6e00);
+    height: 50px;
+    size: 500px;
+    padding-top: 12px;
+    padding-right: 0%;
+    text-align: center;
+    width: 30%;
+    margin-left: 69%;
+
+
+}
+
+#Link {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 150%;
+    font-weight: 900;
+    color: rgb(52, 52, 77);
+}
+
+.Information {
+    background-image: url(./img/yellow-wall-texture-background_38013-196.avif);
+    font-family: cursive;
+    font-size: 150%;
+
+}
+
+#HeaderInformation {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#BlockInformation {
+    width: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(80, 73, 3);
+    font-weight: 900;
+}
+#ParagrInfornation{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+li{
+    padding-left: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(80, 73, 3);
+    font-weight: 900;
+}
+
+#PageNavigation{
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+menu{
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+#MyFooter{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    font-size: 110%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(217deg, rgba(255, 221, 0, 0.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(255, 140, 0, 0.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    
+}
